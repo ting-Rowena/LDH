@@ -1,0 +1,43 @@
+compartment,stage,day,cell.type,short,n,n_parent,frac
+macrophages,D0,0.0,Fn1+ macrophages,Fn1+,14,1259,0.011119936457505957
+macrophages,D0,0.0,M2 macrophages,Arg1+ M2,8,1259,0.006354249404289118
+macrophages,D0,0.0,Resolution macrophages,Mfge8+ Resol.,12,1259,0.009531374106433678
+macrophages,D0,0.0,AM (PBS),AM(PBS),1001,1259,0.7950754567116759
+macrophages,D0,0.0,AM (Bleo),AM(Bleo),56,1259,0.04447974583002383
+macrophages,D3,3.0,Fn1+ macrophages,Fn1+,3,205,0.014634146341463415
+macrophages,D3,3.0,M2 macrophages,Arg1+ M2,8,205,0.03902439024390244
+macrophages,D3,3.0,Resolution macrophages,Mfge8+ Resol.,12,205,0.05853658536585366
+macrophages,D3,3.0,AM (PBS),AM(PBS),49,205,0.23902439024390243
+macrophages,D3,3.0,AM (Bleo),AM(Bleo),78,205,0.3804878048780488
+macrophages,D7,7.0,Fn1+ macrophages,Fn1+,40,1250,0.032
+macrophages,D7,7.0,M2 macrophages,Arg1+ M2,118,1250,0.0944
+macrophages,D7,7.0,Resolution macrophages,Mfge8+ Resol.,421,1250,0.3368
+macrophages,D7,7.0,AM (PBS),AM(PBS),57,1250,0.0456
+macrophages,D7,7.0,AM (Bleo),AM(Bleo),180,1250,0.144
+macrophages,D10,10.0,Fn1+ macrophages,Fn1+,26,2091,0.012434241989478718
+macrophages,D10,10.0,M2 macrophages,Arg1+ M2,1472,2091,0.7039693926351028
+macrophages,D10,10.0,Resolution macrophages,Mfge8+ Resol.,211,2091,0.10090865614538498
+macrophages,D10,10.0,AM (PBS),AM(PBS),14,2091,0.006695361071257772
+macrophages,D10,10.0,AM (Bleo),AM(Bleo),208,2091,0.09947393591582974
+macrophages,D14,14.0,Fn1+ macrophages,Fn1+,71,2113,0.03360151443445338
+macrophages,D14,14.0,M2 macrophages,Arg1+ M2,629,2113,0.29768102224325604
+macrophages,D14,14.0,Resolution macrophages,Mfge8+ Resol.,387,2113,0.18315191670610506
+macrophages,D14,14.0,AM (PBS),AM(PBS),5,2113,0.00236630383341221
+macrophages,D14,14.0,AM (Bleo),AM(Bleo),804,2113,0.3805016564126834
+macrophages,D21,21.0,Fn1+ macrophages,Fn1+,68,2160,0.03148148148148148
+macrophages,D21,21.0,M2 macrophages,Arg1+ M2,107,2160,0.04953703703703704
+macrophages,D21,21.0,Resolution macrophages,Mfge8+ Resol.,504,2160,0.23333333333333334
+macrophages,D21,21.0,AM (PBS),AM(PBS),21,2160,0.009722222222222222
+macrophages,D21,21.0,AM (Bleo),AM(Bleo),1375,2160,0.6365740740740741
+macrophages,D28,28.0,Fn1+ macrophages,Fn1+,25,1159,0.021570319240724764
+macrophages,D28,28.0,M2 macrophages,Arg1+ M2,19,1159,0.01639344262295082
+macrophages,D28,28.0,Resolution macrophages,Mfge8+ Resol.,388,1159,0.33477135461604834
+macrophages,D28,28.0,AM (PBS),AM(PBS),47,1159,0.04055220017256255
+macrophages,D28,28.0,AM (Bleo),AM(Bleo),585,1159,0.5047454702329595
+monocytes,D0,0.0,Recruited macrophages,Recruited,4,69,0.057971014492753624
+monocytes,D3,3.0,Recruited macrophages,Recruited,466,478,0.9748953974895398
+monocytes,D7,7.0,Recruited macrophages,Recruited,411,470,0.874468085106383
+monocytes,D10,10.0,Recruited macrophages,Recruited,15,18,0.8333333333333334
+monocytes,D14,14.0,Recruited macrophages,Recruited,45,56,0.8035714285714286
+monocytes,D21,21.0,Recruited macrophages,Recruited,23,29,0.7931034482758621
+monocytes,D28,28.0,Recruited macrophages,Recruited,36,52,0.6923076923076923

@@ -1,0 +1,7 @@
+Marker Panel / Gene,Biological Role,Spearman ρ vs U_rel,Deep-Valley Score,Slope Score,p-value
+SNIIC1 Module,Atf3 / Gfra3 / Gal (Chronic Injury),-0.739,1.561,-0.556,<1e-300
+SNIIC2 Module,Atf3 / Mrgprd (Acute Injury),-0.434,0.929,-0.272,1.22e-295
+SNIIC3 Module,Atf3 / S100b / Gal (Late Injury),-0.819,1.833,-0.493,<1e-300
+Scn9a (Na_v 1.7),Nociceptor excitability and pain-signal initiation,+0.432,1.112,+0.202,1.52e-292
+Scn10a (Na_v 1.8),Nociceptor action-potential sodium channel,+0.486,0.402,+0.359,<1e-300
+Scn11a (Na_v 1.9),Persistent-current channel linked to inflammatory and persistent pain,+0.492,0.267,+0.325,<1e-300

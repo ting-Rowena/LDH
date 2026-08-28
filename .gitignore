@@ -1,0 +1,56 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw/processed single-cell and clinical data
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.mtx
+*.mtx.gz
+TCGA-OV.*
+TCGA_OV_*
+GSE26712.symbol_expr.csv
+
+# Model weights and generated numerical arrays
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+*_checkpoints_*/
+deep_temporal_benchmark_compare/checkpoints/
+deep_temporal_benchmark_compare/Hamiltonian4_*/
+deep_temporal_benchmark_compare/logs/
+
+# Caches, local packaging, logs, and generated figures
+**/_cache/
+**/_cache_*/
+zenodo_staging/
+*.log
+*.zip
+*.gz
+*.png
+*.pdf
+*.html
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+~$*

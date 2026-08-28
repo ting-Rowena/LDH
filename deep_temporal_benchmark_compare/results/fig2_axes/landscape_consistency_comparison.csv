@@ -1,0 +1,13 @@
+dataset,method,metric,real,null,collapse_ratio,protocol
+GSE155622,LDH-scRNA,U_neglogKDE_spearman,0.8513101615074123,-0.5612740330045323,-0.6593061593564042,Fig2 full retrain null on latent U0
+GSE155622,PRESCIENT-family,U_neglogKDE_spearman,0.0680964505496552,0.060816728428624,0.8930968932701873,Psi on X_latent_pca; refit on shuffled bio_t
+GSE155622,MIOFlow-family,U_neglogKDE_spearman,,,,N/A — no potential
+GSE155622,WOT-inspired,U_neglogKDE_spearman,,,,N/A — no potential
+GSE141259,LDH-scRNA,U_neglogKDE_spearman,0.8626780531555543,-0.5978354131997234,-0.6929994463321816,Fig2 full retrain null on latent U0
+GSE141259,PRESCIENT-family,U_neglogKDE_spearman,0.5834886691096176,0.1317611078324745,0.2258160523211824,Psi on X_latent_pca; refit on shuffled bio_t
+GSE141259,MIOFlow-family,U_neglogKDE_spearman,,,,N/A — no potential
+GSE141259,WOT-inspired,U_neglogKDE_spearman,,,,N/A — no potential
+HGSOC,LDH-scRNA,U_neglogKDE_spearman,0.6253052687284311,0.6166259451296872,0.986119861717472,Fig2 full retrain null on latent U0
+HGSOC,PRESCIENT-family,U_neglogKDE_spearman,0.0822836103870421,-0.0420738734101015,-0.5113275075339576,Psi on X_latent_pca; refit on shuffled bio_t
+HGSOC,MIOFlow-family,U_neglogKDE_spearman,,,,N/A — no potential
+HGSOC,WOT-inspired,U_neglogKDE_spearman,,,,N/A — no potential

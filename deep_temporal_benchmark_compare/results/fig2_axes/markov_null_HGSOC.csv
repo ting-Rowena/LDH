@@ -1,0 +1,9 @@
+dataset,method,setting,markov_hitting_pcc,U_neglogKDE_spearman,note
+HGSOC,LDH-scRNA,real,0.5160400280305237,,momentum→Markov; U–KDE from official Fig.2 JSON
+HGSOC,LDH-scRNA,null_median,0.5160400280305237,,inference-time shuffle proxy n=3; NOT full Fig.2 retrain
+HGSOC,PRESCIENT-family,real,0.45833830690521604,0.0822836103870421,fit on clean bio_t
+HGSOC,PRESCIENT-family,null_median,0.4744749628387875,-0.04207387341010153,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3
+HGSOC,MIOFlow-family,real,0.5707971796932209,,fit on clean bio_t
+HGSOC,MIOFlow-family,null_median,0.5436960686153673,,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3
+HGSOC,WOT-inspired,real,0.4763655479425914,,fit on clean bio_t
+HGSOC,WOT-inspired,null_median,0.4763655479425914,,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3

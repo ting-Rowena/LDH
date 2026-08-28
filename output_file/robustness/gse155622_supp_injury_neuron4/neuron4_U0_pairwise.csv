@@ -1,0 +1,7 @@
+a,b,delta_mean_U0,mannwhitney_p
+Myelinated,Non_peptidergic,-0.0005588840686861496,3.8826789337068516e-216
+Myelinated,Peptidergic,-0.0001741309757201659,2.4418675606438207e-17
+Myelinated,SNI-induced,0.002034053228688437,0.0
+Non_peptidergic,Peptidergic,0.0003847530929659837,3.0880375259432128e-167
+Non_peptidergic,SNI-induced,0.0025929372973745868,0.0
+Peptidergic,SNI-induced,0.002208184204408603,0.0

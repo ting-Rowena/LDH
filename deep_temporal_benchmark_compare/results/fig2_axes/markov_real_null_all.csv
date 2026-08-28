@@ -1,0 +1,25 @@
+dataset,method,setting,markov_hitting_pcc,U_neglogKDE_spearman,note
+GSE155622,LDH-scRNA,real,0.7367252623634128,,momentum→Markov; U–KDE from official Fig.2 JSON
+GSE155622,LDH-scRNA,null_median,0.7366898334980079,,inference-time shuffle proxy n=3; NOT full Fig.2 retrain
+GSE155622,PRESCIENT-family,real,0.7374174097829159,0.0680964505496552,fit on clean bio_t
+GSE155622,PRESCIENT-family,null_median,0.736076537261693,0.060816728428624026,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3
+GSE155622,MIOFlow-family,real,0.7358421658991002,,fit on clean bio_t
+GSE155622,MIOFlow-family,null_median,0.7365300230861694,,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3
+GSE155622,WOT-inspired,real,0.7357029365007048,,fit on clean bio_t
+GSE155622,WOT-inspired,null_median,0.737236510752417,,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3
+GSE141259,LDH-scRNA,real,0.5071299729133764,,momentum→Markov; U–KDE from official Fig.2 JSON
+GSE141259,LDH-scRNA,null_median,0.5071771786895743,,inference-time shuffle proxy n=3; NOT full Fig.2 retrain
+GSE141259,PRESCIENT-family,real,0.4964971696846575,0.5834886691096176,fit on clean bio_t
+GSE141259,PRESCIENT-family,null_median,0.5040962792246574,0.13176110783247458,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3
+GSE141259,MIOFlow-family,real,0.4527298536278106,,fit on clean bio_t
+GSE141259,MIOFlow-family,null_median,0.5035517850052585,,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3
+GSE141259,WOT-inspired,real,0.529498713773193,,fit on clean bio_t
+GSE141259,WOT-inspired,null_median,0.5237944474537456,,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3
+HGSOC,LDH-scRNA,real,0.5160400280305237,,momentum→Markov; U–KDE from official Fig.2 JSON
+HGSOC,LDH-scRNA,null_median,0.5160400280305237,,inference-time shuffle proxy n=3; NOT full Fig.2 retrain
+HGSOC,PRESCIENT-family,real,0.45833830690521604,0.0822836103870421,fit on clean bio_t
+HGSOC,PRESCIENT-family,null_median,0.4744749628387875,-0.04207387341010153,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3
+HGSOC,MIOFlow-family,real,0.5707971796932209,,fit on clean bio_t
+HGSOC,MIOFlow-family,null_median,0.5436960686153673,,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3
+HGSOC,WOT-inspired,real,0.4763655479425914,,fit on clean bio_t
+HGSOC,WOT-inspired,null_median,0.4763655479425914,,fit on shuffled bio_t; eval Markov vs clean bio_t; n=3

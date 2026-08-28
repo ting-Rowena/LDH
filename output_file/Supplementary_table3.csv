@@ -1,0 +1,7 @@
+Metric,Dataset,Real Model,Null Model (Retrained),Collapse ratio
+U0–KDE Spearman (geometric consistency),GSE155622,0.851,-0.561,-0.659
+U0–KDE Spearman (geometric consistency),GSE141259,0.863,-0.598,-0.693
+U0–KDE Spearman (geometric consistency),HGSOC,0.625,0.617,0.986
+Holdout forecasting PCC,GSE155622,0.742,0.702,0.945
+Holdout forecasting PCC,GSE141259,0.502,0.442,0.880
+Holdout forecasting PCC,HGSOC,0.392,0.271,0.693

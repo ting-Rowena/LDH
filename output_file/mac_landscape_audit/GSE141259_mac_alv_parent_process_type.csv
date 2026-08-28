@@ -1,0 +1,3 @@
+parent,start_subtype,end_subtype,start_stage,end_stage,n_cells_parent,S_forward,S_backward,action_asymmetry_ratio,non_conservative_flux_fraction,barrier_height,process_type,transition_state_idx,fwd_success,bwd_success
+alv_epithelium,AT2 cells,Krt8 ADI,D0,D28,4237,-0.3051439713579075,-0.3046334991507666,0.9983271102952892,0.9460186588471896,0.0002922543466881,Reversible Plasticity,9,True,True
+macrophages,AM (PBS),AM (Bleo),D0,D28,10237,-0.3221424636676478,-0.3221703274279112,1.0000864951454898,0.9751079571588228,5.630422863606155e-05,Reversible Plasticity,6,True,True

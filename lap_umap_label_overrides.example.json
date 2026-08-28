@@ -1,0 +1,23 @@
+{
+  "_readme": "Edit dx/dy (UMAP offset from path endpoint) or set absolute x/y. Then: python scripts/regenerate_lap_umap_labels.py --dataset HGSOC --cell-type EOC",
+  "HGSOC_EOC_umap_canonical_medoid": {
+    "start": {
+      "label": "IIIC",
+      "ref_x": 0.0,
+      "ref_y": 0.0,
+      "dx": 0.0,
+      "dy": 0.0,
+      "ha": "center",
+      "va": "bottom"
+    },
+    "end": {
+      "label": "IVB",
+      "ref_x": 0.0,
+      "ref_y": 0.0,
+      "dx": 0.0,
+      "dy": 0.0,
+      "ha": "center",
+      "va": "top"
+    }
+  }
+}

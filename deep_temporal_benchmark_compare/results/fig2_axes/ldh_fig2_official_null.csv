@@ -1,0 +1,4 @@
+dataset,method,real_holdout_pcc,null_median_holdout_pcc,holdout_pcc_collapse_ratio,real_U_neglogKDE_spearman,null_median_U_neglogKDE_spearman,U_spearman_collapse_ratio,shuffle_mode,protocol
+GSE155622,LDH-scRNA,0.742318788752134,0.7016393446727409,0.9451994955593449,0.8513101615074123,-0.5612740330045323,-0.6593061593564042,temporal_matched,Fig.2 full retrain null (LDH-native)
+GSE141259,LDH-scRNA,0.5022936781253855,0.44205121735432334,0.8800652618287104,0.8626780531555543,-0.5978354131997234,-0.6929994463321816,temporal_matched,Fig.2 full retrain null (LDH-native)
+HGSOC,LDH-scRNA,0.39164363392123397,0.2714546945375388,0.6931165759536713,0.6253052687284311,0.6166259451296872,0.9861198617174721,pairing_matched,Fig.2 full retrain null (LDH-native)

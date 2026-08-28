@@ -1,0 +1,5 @@
+dataset,method,trajectory_time_pcc,markov_hitting_pcc,pseudotime_protocol,n_cells,embedding,status
+GSE141259,LDH-scRNA,0.010903457826120162,0.5071299729133764,velocity_graph_laplacian,5000,X_latent_pca:10,ok_markov_hitting_time_no_pkg
+GSE141259,PRESCIENT-family,0.231790665623826,0.4964971696846575,velocity_graph_laplacian,5000,X_latent_pca:10,ok_markov_hitting_time_no_pkg
+GSE141259,MIOFlow-family,0.23179066562384937,0.4527298536278106,velocity_graph_laplacian,5000,X_latent_pca:10,ok_markov_hitting_time_no_pkg
+GSE141259,WOT-inspired,0.012498107338019475,0.529498713773193,velocity_graph_laplacian,5000,X_latent_pca:10,ok_markov_hitting_time_no_pkg

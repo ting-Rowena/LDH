@@ -1,0 +1,8 @@
+Dataset,Gene / panel,Verdict,Note
+GSE155622,Atf3,PARTIAL,SNIIC drift blocked; partner-selective; not neuron-specific
+GSE155622,Egr1,FAIL,negative control
+GSE155622,Cpeb1,FAIL,out-of-panel exploratory
+GSE141259,Lgals3/Cdkn1a/Spp1 vs Cbr2/Hc/Chi3l1,PARTIAL,KO of high-U_rel genes vs low-U_rel controls; exit/trapping readouts change; does not certify ADI→AT1 or suppress Fibro foil
+HGSOC,BBC3,PASS,99.0% hybrid escape; beats 20-gene random-gene null
+HGSOC,SOD2,PARTIAL,78.8% escape; random-gene specificity fail
+HGSOC,IFI27,FAIL,0% escape

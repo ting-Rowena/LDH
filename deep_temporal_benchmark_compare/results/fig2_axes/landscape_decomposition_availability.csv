@@ -1,0 +1,10 @@
+dataset,method,has_U0_plus_phi,note
+GSE155622,PRESCIENT-family,False,single Psi(x) only
+GSE155622,MIOFlow-family,False,no potential
+GSE155622,WOT-inspired,False,no potential
+GSE141259,PRESCIENT-family,False,single Psi(x) only
+GSE141259,MIOFlow-family,False,no potential
+GSE141259,WOT-inspired,False,no potential
+HGSOC,PRESCIENT-family,False,single Psi(x) only
+HGSOC,MIOFlow-family,False,no potential
+HGSOC,WOT-inspired,False,no potential
