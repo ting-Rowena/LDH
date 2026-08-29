@@ -18,7 +18,7 @@ jobs:
         run: |
           set -euo pipefail
           test -f LDH_source.zip
-          unzip -q LDH_source.zip -d .
+          unzip -oq LDH_source.zip -d .
 
           if [[ -f .github-update-delete.txt ]]; then
             while IFS= read -r path || [[ -n "$path" ]]; do
