@@ -50,6 +50,7 @@ before `Supplementary_figure7.py`.
 P0–P2 / Atf3-OE intermediates used by several figures live in `output_file/robustness/`.
 
 Checkpoint paths are centralized in `_adopted.py`. Place the three adopted
-folders as documented in `DATA_AND_CHECKPOINTS.md` (repository root). Captions
-for tables are in `Supplementary_tables_1-8_captions.md`,
+folders as documented in `DATA_AND_CHECKPOINTS.md` (repository root); weights
+are at https://doi.org/10.5281/zenodo.22146979. Captions for tables are in
+`Supplementary_tables_1-8_captions.md`,
 `Supplementary_table1_xlsx_caption.md`, and `Supplementary_table9_10_captions.md`.

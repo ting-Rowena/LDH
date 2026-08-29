@@ -2,7 +2,7 @@
 
 **Repository:** https://github.com/ting-Rowena/LDH  
 **Reviewer checklist:** [`REVIEWER.md`](REVIEWER.md)  
-**Weights (Zenodo):** see [`DATA_AND_CHECKPOINTS.md`](DATA_AND_CHECKPOINTS.md)
+**Weights (Zenodo):** https://doi.org/10.5281/zenodo.22146979
 
 This repository trains **LDH-scRNA** (latent damped-Hamiltonian / second-order
 Langevin dynamics on scRNA-seq time series) and writes manuscript figures and
@@ -45,7 +45,8 @@ CUDA or CPU setup from https://pytorch.org if the pip default is wrong.
 
 Place **adopted checkpoints** and, for slow jobs, **processed `.h5ad`** as
 described in [DATA_AND_CHECKPOINTS.md](DATA_AND_CHECKPOINTS.md). Weights are
-not stored on GitHub.
+on Zenodo ([10.5281/zenodo.22146979](https://doi.org/10.5281/zenodo.22146979)),
+not on GitHub.
 
 ```bash
 python output_file/reproduce.py --check
@@ -133,4 +134,6 @@ deep_temporal_benchmark_compare/   # four-method transport + Hamiltonian4 weight
 
 ## License
 
-Add the license you intend to use before making the GitHub repository public.
+No reuse license has been selected yet. The repository is public for peer
+review and reproducibility inspection; contact the authors for permission to
+reuse or redistribute the code.

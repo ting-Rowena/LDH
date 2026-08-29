@@ -2,7 +2,7 @@
 # Build lean Zenodo zips (weights only; no TCGA cache, no analysis_protocol dumps).
 set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-OUT="${OUT:-$ROOT/zenodo_staging}"
+OUT="${OUT:-$ROOT/Zenodo_model_weights}"
 STAGE="$OUT/stage"
 rm -rf "$STAGE"
 mkdir -p "$STAGE/adopted" "$STAGE/h4"

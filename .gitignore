@@ -34,6 +34,7 @@ GSE26712.symbol_expr.csv
 *.npz
 *.npy
 *_checkpoints_*/
+Zenodo_model_weights/
 deep_temporal_benchmark_compare/checkpoints/
 deep_temporal_benchmark_compare/Hamiltonian4_*/
 deep_temporal_benchmark_compare/logs/

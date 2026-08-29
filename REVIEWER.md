@@ -1,7 +1,7 @@
 # Reviewer reproduction
 
 **Code:** https://github.com/ting-Rowena/LDH  
-**Weights:** Zenodo (DOI in [`DATA_AND_CHECKPOINTS.md`](DATA_AND_CHECKPOINTS.md); paste after you publish)
+**Weights:** https://doi.org/10.5281/zenodo.22146979
 
 Two LDH weight families exist. **Do not mix them.**
 
@@ -25,8 +25,8 @@ pip install -r requirements.txt
 
 ## 2. Weights (Zenodo)
 
-Download the two archives from the Zenodo record and unzip **inside the clone
-root** so paths match `output_file/_adopted.py`:
+Download the two archives from https://doi.org/10.5281/zenodo.22146979 and unzip
+**inside the clone root** so paths match `output_file/_adopted.py`:
 
 ```bash
 # from the LDH clone root

@@ -4,25 +4,27 @@ Weights and processed AnnData are **not** in git (see `.gitignore`). Place them
 next to `run_training.py` using the **exact directory and file names** below.
 `output_file/_adopted.py` hard-codes those names.
 
-When the Zenodo record is published, put the **concept DOI** here (and in
-[`REVIEWER.md`](REVIEWER.md)):
+**Weights (Zenodo):** https://doi.org/10.5281/zenodo.22146979  
 
+**Code:** https://github.com/ting-Rowena/LDH (weights are not in git).
+
+Download the two archives from that record and unzip them at the clone root:
+
+```bash
+# from the LDH / Dynamical_analysis repository root
+unzip ldh-scrna-adopted-landscape-checkpoints.zip
+# optional, only to recompute Figure 2 OT:
+unzip ldh-scrna-hamiltonian4-checkpoints.zip
+python output_file/reproduce.py --check
 ```
-Zenodo:  https://doi.org/10.5281/zenodo.<ID>
-```
 
-**Code** is https://github.com/ting-Rowena/LDH (weights are not in git).
-
-Build the two upload zips on the machine that has the checkpoints:
+To rebuild the upload zips on a machine that already has the checkpoints:
 
 ```bash
 bash scripts/pack_zenodo_checkpoints.sh
-# → zenodo_staging/ldh-scrna-adopted-landscape-checkpoints.zip
-# → zenodo_staging/ldh-scrna-hamiltonian4-checkpoints.zip
+# → Zenodo_model_weights/ldh-scrna-adopted-landscape-checkpoints.zip
+# → Zenodo_model_weights/ldh-scrna-hamiltonian4-checkpoints.zip
 ```
-
-Reviewers unzip those archives at the clone root. Until the DOI is filled in,
-point them at a private share of the same zips.
 
 ## Two LDH weight families (do not mix)
 

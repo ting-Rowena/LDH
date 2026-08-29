@@ -11,11 +11,22 @@ torch>=2.0
 geomloss>=0.2.6
 openpyxl>=3.1
 plotly>=5.18
+seaborn>=0.12
+statsmodels>=0.14
+gseapy>=1.1
+umap-learn>=0.5
+boltons>=23.0
+trampoline>=0.1
 
 # Survival / PDVS (Appendix Table S8, Figure 5e–f)
 lifelines>=0.27
 
 # Optional: regenerate four-method transport (deep_temporal_benchmark_compare)
-# pot
+# POT
 # wot
+# scvelo
+# cellrank
+# harmonypy
+# mygene
+# scikit-fmm
 # torchsde

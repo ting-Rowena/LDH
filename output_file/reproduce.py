@@ -7,7 +7,8 @@ Run from the repository root:
   python output_file/reproduce.py --group fast
   python output_file/reproduce.py --group all
 
-Adopted checkpoints must sit at the repo root (see DATA_AND_CHECKPOINTS.md).
+Adopted checkpoints must sit at the repo root (Zenodo
+https://doi.org/10.5281/zenodo.22146979; see DATA_AND_CHECKPOINTS.md).
 Raw ``.h5ad`` files are required only for jobs tagged ``h5ad``.
 """
 

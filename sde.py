@@ -1,10 +1,12 @@
 import torch
 from torch import nn
 import warnings
-from methods import checkFunc,Euler,misc
+import sde_core as checkFunc
+import sde_core as Euler
+import sde_core as misc
 from adjoint_sde import AdjointSDE
-from methods._brownian import BaseBrownian, ReverseBrownian
-from methods.types import Any, Dict, Optional, Scalar, Tensor, Tensors, TensorOrTensors, Vector
+from brownian import BaseBrownian, ReverseBrownian
+from sde_core import Any, Dict, Optional, Scalar, Tensor, Tensors, TensorOrTensors, Vector
 
 
 class _SdeintAdjointMethod(torch.autograd.Function):
