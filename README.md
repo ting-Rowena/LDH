@@ -98,7 +98,7 @@ If a retrained folder name differs, edit `output_file/_adopted.py`.
 | --- | --- | --- |
 | Mouse DRG SNI | [GSE155622](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155622) | Pain time course |
 | Mouse bleomycin lung | [GSE141259](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141259) | Lung time course |
-| HGSOC NACT-paired | [EGAS00001005010](https://ega-archive.org/studies/EGAS00001005010) | Patient-paired TN→PN |
+| HGSOC NACT-paired |  [GSE165897](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165897)(Count matrix）/[EGAS00001005010](https://ega-archive.org/studies/EGAS00001005010)(FASTQ) | Patient-paired TN→PN |
 | PDVS OS | TCGA-OV (Xena / GDC); [GSE26712](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE26712) | Figure 5 / Table S8 |
 
 Processed files expected at the repo root: `GSE155622_raw_UMI_counts_3.h5ad`,
